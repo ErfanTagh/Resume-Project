@@ -1,0 +1,21 @@
+Betreff: Bewerbung als (Junior/Senior) Full Stack Developer (m/w/d)
+
+Sehr geehrtes Nesto-Team,
+
+mit großer Begeisterung bewerbe ich mich auf die Position als Full Stack Developer bei Nesto. Die Entwicklung innovativer Cloud-Lösungen zur Personalplanung mit neuesten Technologien begeistert mich sehr.
+
+Ich verfüge über zwei Jahre Berufserfahrung als Softwareentwickler bei Neocosmo in Deutschland mit fundierter JavaScript-Expertise (React Native), Backend-Entwicklung (Python/Flask, Node.js-Grundlagen), MongoDB-Erfahrung und App-Entwicklung für mobile Endgeräte. Ich habe eigenständig mehrere Fullstack-Projekte entwickelt, darunter RecallCards mit React-Frontend, Flask-Backend und CI/CD-Integration. Aktuell studiere ich im Master of Computer Science an der RPTU Kaiserslautern.
+
+Was mich auszeichnet: Leidenschaft für sauberen Code, hohes Qualitätsbewusstsein, schnelle Lernbereitschaft (MongoDB Zertifizierung 2024), selbstständige Arbeitsweise und kundenzentriertes Denken. Ich verfüge über sehr gute Deutschkenntnisse (C1) und fließende Englischkenntnisse (C2).
+
+Im Anhang finden Sie meinen Lebenslauf und weitere Unterlagen. Sehr gerne überzeuge ich Sie in einem persönlichen Gespräch von meinen Fähigkeiten.
+
+Mit freundlichen Grüßen,
+Erfan Taghvaei
+
+---
+
+Anhänge:
+- Lebenslauf
+- Zeugnisse
+- MongoDB Zertifikat

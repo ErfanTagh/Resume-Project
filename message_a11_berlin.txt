@@ -1,0 +1,22 @@
+Betreff: Bewerbung als Frontend Developer (m/w/d) - Berlin
+
+Sehr geehrtes A11-Team,
+
+mit großer Begeisterung bewerbe ich mich auf die Position als Frontend Developer bei A11. Die Möglichkeit, Hauptverantwortung für die Frontend-Entwicklung zu übernehmen und die User Experience aktiv zu gestalten, begeistert mich sehr. Ich bin bereit, nach Berlin umzuziehen.
+
+Ich verfüge über zwei Jahre Berufserfahrung als Frontend-Entwickler bei Neocosmo mit React Native, wo ich eigenverantwortlich Frontend-Komponenten entwickelt und an Projekten für Unternehmen wie Festo und KVNO gearbeitet habe. Zusätzlich habe ich mehrere Fullstack-Projekte mit React-Frontend eigenständig entwickelt (z.B. RecallCards). Meine Expertise umfasst React-Entwicklung (2 Jahre), TypeScript-Kenntnisse, Backend-Verständnis (Python/Flask, REST-APIs), Unit- und E2E-Tests (Detox, Storybook) sowie GitLab CI/CD.
+
+Aufgrund meiner React-Erfahrung kann ich mir Angular schnell aneignen, da die Konzepte sehr ähnlich sind. Mein Backend-Verständnis durch Flask ermöglicht es mir, Symfony-Code zu lesen und zu verstehen. Ich verfüge über fließende Deutschkenntnisse und arbeite eigenständig, kreativ und teamorientiert. Aktuell studiere ich im Master of Computer Science an der RPTU Kaiserslautern.
+
+Im Anhang finden Sie meinen Lebenslauf und weitere Unterlagen. Sehr gerne überzeuge ich Sie in einem persönlichen Gespräch von meinen Fähigkeiten.
+
+Mit freundlichen Grüßen,
+Erfan Taghvaei
+
+---
+
+Anhänge:
+- Lebenslauf
+- Zeugnisse
+- Zertifikate
+

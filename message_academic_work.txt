@@ -1,0 +1,21 @@
+Betreff: Bewerbung als Softwareentwickler Java (m/w/d) - Düsseldorf
+
+Sehr geehrte Frau Hansen, sehr geehrter Herr Jelken,
+
+mit großem Interesse bewerbe ich mich über Academic Work auf die Position als Softwareentwickler Java.
+
+Ich verfüge über zwei Jahre Berufserfahrung als Softwareentwickler bei Neocosmo in Deutschland in agilen Teams. Meine Expertise umfasst fundierte JavaScript-Kenntnisse (React Native), Backend-Entwicklung (Python/Flask), Fullstack-Projekte mit React-Frontend und Backend-Integration, Erfahrung mit Datenbanken (MongoDB, Redis) und DevOps (GitLab CI/CD, Docker). Ich habe eigenständig mehrere Projekte entwickelt und den gesamten Softwareentwicklungsprozess von der Analyse bis zum Betrieb begleitet.
+
+Aktuell studiere ich im Master of Computer Science an der RPTU Kaiserslautern mit Schwerpunkt Software Engineering (Kurse: OOP, Compiler Design, Data Structures and Algorithms). Ich verfüge über verhandlungssichere Deutschkenntnisse (C1) und fließende Englischkenntnisse (C2). Aufgrund meiner soliden Programmiererfahrung mit objektorientierten Sprachen und Backend-Frameworks bin ich überzeugt, dass ich mir Java und Spring Boot in kürzester Zeit aneignen kann -- wie ich bereits mit verschiedenen Technologien (React Native, Python/Flask, MongoDB) unter Beweis gestellt habe.
+
+Im Anhang finden Sie meinen Lebenslauf und weitere Unterlagen. Sehr gerne überzeuge ich Sie in einem persönlichen Gespräch von meinen Fähigkeiten.
+
+Mit freundlichen Grüßen,
+Erfan Taghvaei
+
+---
+
+Anhänge:
+- Lebenslauf
+- Zeugnisse
+- MongoDB Zertifikat
