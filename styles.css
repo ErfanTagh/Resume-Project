@@ -6,9 +6,9 @@
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #212529;
   background-color: #f8f9fa;
   font-size: 14px;
   font-weight: 400;
@@ -26,7 +26,7 @@ body {
 
 /* Header Section */
 .resume-header {
-  padding: 35px 40px;
+  padding: 20px 30px;
 }
 
 .header-content {
@@ -46,15 +46,15 @@ body {
 }
 
 .profile-image {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #e9ecef;
+  border: 2px solid #e9ecef;
   object-position: 50% 30%;
   flex-shrink: 0;
   position: absolute;
-  right: 40px;
+  right: 30px;
 }
 
 
@@ -66,20 +66,24 @@ body {
 }
 
 .name {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
   letter-spacing: -0.5px;
   line-height: 1.1;
-  color: #333;
+  color: #212529;
+}
+
+.name strong {
+  font-weight: 700;
 }
 
 .title {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: #6c757d;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .summary {
@@ -93,7 +97,14 @@ body {
 .contact-info {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
+}
+
+.contact-info-horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 30px;
+  justify-content: flex-start;
 }
 
 .contact-item {
@@ -138,18 +149,17 @@ body {
 
 /* Main Content */
 .resume-main {
-  padding: 40px;
+  padding: 20px 30px;
 }
 
 .content-grid {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  gap: 40px;
+  display: block;
+  width: 100%;
 }
 
 /* Section Styles */
 .resume-section {
-  margin-bottom: 32px;
+  margin-bottom: 18px;
 }
 
 .resume-section:last-child {
@@ -157,14 +167,14 @@ body {
 }
 
 .section-title {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-weight: 600;
-  color: #2c3e50;
-  margin-bottom: 20px;
+  color: #000000;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding-bottom: 8px;
+  gap: 6px;
+  padding-bottom: 5px;
   border-bottom: 2px solid #e9ecef;
   line-height: 1.2;
 }
@@ -207,8 +217,8 @@ body {
 
 /* Education Section */
 .education-item {
-  margin-bottom: 24px;
-  padding-bottom: 24px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
   border-bottom: 1px solid #f1f3f4;
 }
 
@@ -219,11 +229,15 @@ body {
 }
 
 .education-item h4 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  color: #2c3e50;
-  margin-bottom: 8px;
-  line-height: 1.3;
+  color: #000000;
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+.education-item h4 strong {
+  font-weight: 700;
 }
 
 .education-header {
@@ -234,9 +248,13 @@ body {
 
 .education-item .institution {
   font-weight: 500;
-  color: #495057;
+  color: #212529;
   font-size: 0.95rem;
   margin: 0;
+}
+
+.education-item .institution strong {
+  font-weight: 700;
 }
 
 .education-item .location {
@@ -255,21 +273,21 @@ body {
 }
 
 .key-courses {
-  margin-top: 10px;
+  margin-top: 6px;
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 4px;
 }
 
 .course-tag {
   background: #f8f9fa;
   color: #667eea;
-  padding: 3px 8px;
+  padding: 2px 6px;
   border-radius: 6px;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   font-weight: 500;
   border: 1px solid #667eea;
-  line-height: 1.2;
+  line-height: 1.1;
   transition: all 0.2s ease;
 }
 
@@ -321,29 +339,33 @@ body {
 .languages-list {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
+}
+
+.languages-list-horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 40px;
+  justify-content: flex-start;
 }
 
 .language-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 16px;
+  gap: 10px;
 }
 
 .language-name {
   font-weight: 500;
   color: #495057;
-  min-width: 80px;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
 }
 
 .language-level {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: #6c757d;
-  font-weight: 500;
-  width: 24px;
-  text-align: right;
+  font-weight: 600;
   font-family: monospace;
 }
 
@@ -371,8 +393,8 @@ body {
 
 /* Certifications Section */
 .certification-item {
-  margin-bottom: 16px;
-  padding-bottom: 16px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #f1f3f4;
 }
 
@@ -392,10 +414,14 @@ body {
 }
 
 .certification-header h4 {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  color: #2c3e50;
-  line-height: 1.3;
+  color: #000000;
+  line-height: 1.2;
+}
+
+.certification-header h4 strong {
+  font-weight: 700;
 }
 
 .certification-issuer {
@@ -434,7 +460,7 @@ body {
 
 /* Experience Section */
 .experience-item {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .experience-item:last-child {
@@ -446,16 +472,24 @@ body {
 }
 
 .experience-header h4 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  color: #2c3e50;
-  line-height: 1.3;
+  color: #000000;
+  line-height: 1.2;
+}
+
+.experience-header h4 strong {
+  font-weight: 700;
 }
 
 .company {
   font-weight: 500;
-  color: #495057;
+  color: #212529;
   font-size: 0.95rem;
+}
+
+.company strong {
+  font-weight: 700;
 }
 
 .period {
@@ -496,11 +530,11 @@ body {
 
 .experience-details li {
   position: relative;
-  padding-left: 20px;
-  margin-bottom: 6px;
-  color: #495057;
-  line-height: 1.4;
-  font-size: 0.85rem;
+  padding-left: 16px;
+  margin-bottom: 3px;
+  color: #212529;
+  line-height: 1.3;
+  font-size: 0.75rem;
 }
 
 .experience-details li:last-child {
@@ -562,8 +596,8 @@ body {
 
 /* Projects Section */
 .project-item {
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
   border-bottom: 1px solid #f1f3f4;
 }
 
@@ -583,10 +617,14 @@ body {
 }
 
 .project-header h4 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  color: #2c3e50;
-  line-height: 1.3;
+  color: #000000;
+  line-height: 1.2;
+}
+
+.project-header h4 strong {
+  font-weight: 700;
 }
 
 .project-link {
@@ -610,45 +648,52 @@ body {
 }
 
 .project-description {
-  font-size: 0.85rem;
-  line-height: 1.5;
-  color: #495057;
-  margin-bottom: 12px;
+  font-size: 0.75rem;
+  line-height: 1.3;
+  color: #212529;
+  margin-bottom: 6px;
   font-weight: 400;
 }
 
 .project-tech {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 4px;
+}
+
+.job-tech {
+  margin-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
 }
 
 .tech-tag {
   background: #f8f9fa;
   color: #495057;
-  padding: 4px 8px;
-  border-radius: 12px;
-  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 10px;
+  font-size: 0.65rem;
   font-weight: 500;
   border: 1px solid #dee2e6;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 .job-competencies {
-  margin-top: 8px;
+  margin-top: 6px;
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 4px;
 }
 
 .competency-bubble {
   background: #667eea;
   color: white;
-  padding: 4px 8px;
-  border-radius: 12px;
-  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 10px;
+  font-size: 0.65rem;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.1;
   display: inline-block;
 }
 
@@ -661,19 +706,19 @@ body {
 .interests-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 4px;
 }
 
 .interest-tag {
   background: #f8f9fa;
   color: #495057;
-  padding: 6px 12px;
-  border-radius: 16px;
-  font-size: 0.85rem;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
   font-weight: 400;
   border: 1px solid #dee2e6;
   transition: all 0.2s ease;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 .interest-tag:hover {
@@ -832,9 +877,15 @@ body {
     padding: 0;
   }
   
+  @page {
+    margin: 18mm 18mm;
+    size: A4;
+  }
+  
   .resume-container {
     box-shadow: none;
-    margin: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     border-radius: 0;
     max-width: none;
     width: 100%;
@@ -845,6 +896,8 @@ body {
     -webkit-print-color-adjust: exact;
     color-adjust: exact;
     print-color-adjust: exact;
+    padding: 25px 30px 20px 30px !important;
+    page-break-after: avoid;
   }
   
   .level-fill,
@@ -866,58 +919,128 @@ body {
   }
   
   .resume-main {
-    padding: 30px;
-  }
-  
-  .resume-header {
-    padding: 30px;
+    padding: 0 30px 25px 30px !important;
+    margin: 0 !important;
   }
   
   .content-grid {
-    gap: 30px;
+    display: block !important;
+    width: 100% !important;
   }
   
+  /* Ensure all sections have consistent spacing */
   .resume-section {
-    margin-bottom: 25px;
+    margin-bottom: 12px !important;
+    margin-top: 0 !important;
+    padding-top: 18px !important;
+    page-break-inside: avoid;
+    orphans: 3;
+    widows: 3;
   }
   
+  /* First section on page 1 needs less top spacing */
+  .resume-section:first-of-type {
+    padding-top: 0 !important;
+    page-break-before: avoid;
+  }
+  
+  /* Section titles should stay with their content */
+  .section-title {
+    margin-bottom: 8px !important;
+    padding-bottom: 4px !important;
+    page-break-after: avoid;
+    orphans: 3;
+  }
+  
+  /* Items should stay together */
   .project-item,
   .certification-item {
-    margin-bottom: 15px;
-    padding-bottom: 15px;
+    margin-bottom: 10px !important;
+    padding-bottom: 10px !important;
+    page-break-inside: avoid;
+    orphans: 2;
+    widows: 2;
   }
   
   .experience-item {
-    margin-bottom: 20px;
+    margin-bottom: 12px !important;
+    page-break-inside: avoid;
+    orphans: 3;
+    widows: 3;
   }
   
   .education-item {
-    margin-bottom: 15px;
-    padding-bottom: 15px;
+    margin-bottom: 10px !important;
+    padding-bottom: 10px !important;
+    page-break-inside: avoid;
+    orphans: 2;
+    widows: 2;
   }
   
+  /* Keep list items together with their headers */
+  .experience-header {
+    page-break-after: avoid;
+  }
+  
+  .experience-details {
+    page-break-before: avoid;
+  }
+  
+  .experience-details li {
+    margin-bottom: 2px !important;
+    line-height: 1.2 !important;
+    page-break-inside: avoid;
+  }
+  
+  /* Compact spacing for tags */
   .skills-grid {
-    gap: 20px;
+    gap: 12px !important;
   }
   
   .competencies-grid {
-    gap: 15px;
+    gap: 10px !important;
   }
   
-  .languages-list {
-    gap: 12px;
+  .languages-list,
+  .languages-list-horizontal {
+    gap: 6px !important;
   }
   
-  .project-tech {
-    gap: 5px;
+  .project-tech,
+  .job-tech {
+    gap: 3px !important;
+    margin-top: 4px !important;
+    page-break-before: avoid;
+  }
+  
+  .job-competencies {
+    gap: 3px !important;
+    margin-top: 4px !important;
   }
   
   .skill-tags {
-    gap: 6px;
+    gap: 4px !important;
   }
   
   .interests-list {
-    gap: 6px;
+    gap: 3px !important;
+  }
+  
+  .profile-image {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  
+  /* Avoid page breaks after headers */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    orphans: 3;
+    widows: 3;
+  }
+  
+  /* Contact info should not break */
+  .contact-info-horizontal {
+    page-break-inside: avoid;
   }
 }
 
