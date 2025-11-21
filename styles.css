@@ -458,6 +458,67 @@ body {
   font-size: 0.75rem;
 }
 
+/* Publications Section */
+.publication-item {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f1f3f4;
+}
+
+.publication-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.publication-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.publication-header h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #000000;
+  line-height: 1.2;
+}
+
+.publication-header h4 strong {
+  font-weight: 700;
+}
+
+.publication-platform {
+  color: #6c757d;
+  font-weight: 500;
+  font-size: 0.85rem;
+  font-style: italic;
+  margin-bottom: 4px;
+}
+
+.publication-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #667eea;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.publication-link:hover {
+  color: #5a6fd8;
+  text-decoration: underline;
+}
+
+.publication-link i {
+  font-size: 0.75rem;
+}
+
 /* Experience Section */
 .experience-item {
   margin-bottom: 16px;
@@ -702,30 +763,6 @@ body {
   transform: translateY(-1px);
 }
 
-/* Interests Section */
-.interests-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-}
-
-.interest-tag {
-  background: #f8f9fa;
-  color: #495057;
-  padding: 3px 8px;
-  border-radius: 12px;
-  font-size: 0.75rem;
-  font-weight: 400;
-  border: 1px solid #dee2e6;
-  transition: all 0.2s ease;
-  line-height: 1.1;
-}
-
-.interest-tag:hover {
-  background: #e9ecef;
-  transform: translateY(-1px);
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
   .resume-container {
@@ -914,7 +951,8 @@ body {
   }
   
   .project-link:hover,
-  .certification-link:hover {
+  .certification-link:hover,
+  .publication-link:hover {
     text-decoration: none;
   }
   
@@ -928,7 +966,6 @@ body {
     width: 100% !important;
   }
   
-  /* Ensure all sections have consistent spacing */
   .resume-section {
     margin-bottom: 12px !important;
     margin-top: 0 !important;
@@ -938,13 +975,11 @@ body {
     widows: 3;
   }
   
-  /* First section on page 1 needs less top spacing */
   .resume-section:first-of-type {
     padding-top: 0 !important;
     page-break-before: avoid;
   }
   
-  /* Section titles should stay with their content */
   .section-title {
     margin-bottom: 8px !important;
     padding-bottom: 4px !important;
@@ -952,9 +987,9 @@ body {
     orphans: 3;
   }
   
-  /* Items should stay together */
   .project-item,
-  .certification-item {
+  .certification-item,
+  .publication-item {
     margin-bottom: 10px !important;
     padding-bottom: 10px !important;
     page-break-inside: avoid;
@@ -977,7 +1012,6 @@ body {
     widows: 2;
   }
   
-  /* Keep list items together with their headers */
   .experience-header {
     page-break-after: avoid;
   }
@@ -992,7 +1026,6 @@ body {
     page-break-inside: avoid;
   }
   
-  /* Compact spacing for tags */
   .skills-grid {
     gap: 12px !important;
   }
@@ -1022,26 +1055,18 @@ body {
     gap: 4px !important;
   }
   
-  .interests-list {
-    gap: 3px !important;
-  }
-  
   .profile-image {
     width: 60px !important;
     height: 60px !important;
   }
   
-  /* Avoid page breaks after headers */
   h1, h2, h3, h4, h5, h6 {
     page-break-after: avoid;
     orphans: 3;
     widows: 3;
   }
   
-  /* Contact info should not break */
   .contact-info-horizontal {
     page-break-inside: avoid;
   }
 }
-
-
