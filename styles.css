@@ -677,6 +677,16 @@ body {
   gap: 8px;
 }
 
+.project-title-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.project-title-block h4 {
+  margin: 0;
+}
+
 .project-header h4 {
   font-size: 0.9rem;
   font-weight: 600;
@@ -686,6 +696,14 @@ body {
 
 .project-header h4 strong {
   font-weight: 700;
+}
+
+.project-period {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #667eea;
+  font-style: italic;
+  margin: 0;
 }
 
 .project-link {
@@ -917,6 +935,13 @@ body {
   @page {
     margin: 18mm 18mm;
     size: A4;
+  }
+  
+  @page:first {
+    margin-top: 18mm;
+    margin-right: 18mm;
+    margin-bottom: 10mm;
+    margin-left: 18mm;
   }
   
   .resume-container {
