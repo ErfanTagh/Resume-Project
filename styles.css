@@ -829,14 +829,14 @@ body {
   }
   
   @page {
-    margin: 15mm 20mm;
+    margin: 20mm 15mm 15mm 15mm;
     size: A4;
   }
   
   .resume-container {
     box-shadow: none;
-    margin: 0 !important;
-    padding: 0 !important;
+    margin: 0;
+    padding: 0 20px 20px 20px;
     border-radius: 0;
     max-width: none;
     width: 100%;
@@ -845,27 +845,62 @@ body {
   .resume-header {
     background: white !important;
     -webkit-print-color-adjust: exact;
-    color-adjust: exact;
     print-color-adjust: exact;
-    padding: 20px 0 15px 0 !important;
+    padding: 20px 0 15px 0;
+    margin: 0;
+    margin-bottom: 15px;
     page-break-after: avoid;
   }
   
   .resume-main {
-    padding: 0 !important;
-    margin: 0 !important;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .content-grid {
+    display: block;
+    gap: 0;
   }
   
   .left-column,
   .right-column {
-    padding: 0 5mm !important;
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+  
+  .resume-section {
+    margin-bottom: 15px;
+  }
+  
+  .resume-section:last-child {
+    margin-bottom: 0;
+  }
+  
+  .section-title {
+    page-break-after: avoid;
+    margin-bottom: 10px;
+  }
+  
+  .experience-item {
+    margin-bottom: 12px;
+  }
+  
+  .education-item {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+  }
+  
+  .project-item,
+  .certification-item {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
   }
   
   .level-fill,
   .competency-fill {
     background: #667eea !important;
     -webkit-print-color-adjust: exact;
-    color-adjust: exact;
     print-color-adjust: exact;
   }
   
@@ -877,117 +912,6 @@ body {
   .project-link:hover,
   .certification-link:hover {
     text-decoration: none;
-  }
-  
-  .resume-main {
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-  
-  .content-grid {
-    display: block !important;
-    gap: 0 !important;
-  }
-  
-  .left-column,
-  .right-column {
-    width: 100% !important;
-    float: none !important;
-  }
-  
-  .resume-section {
-    margin-bottom: 18px !important;
-    page-break-inside: avoid;
-    orphans: 3;
-    widows: 3;
-  }
-  
-  .resume-section:last-child {
-    margin-bottom: 0 !important;
-  }
-  
-  .section-title {
-    page-break-after: avoid;
-    margin-bottom: 10px !important;
-  }
-  
-  .experience-item {
-    margin-bottom: 15px !important;
-    page-break-inside: avoid;
-    orphans: 3;
-    widows: 3;
-  }
-  
-  .experience-header {
-    page-break-after: avoid;
-  }
-  
-  .experience-details {
-    page-break-before: avoid;
-  }
-  
-  .experience-details li {
-    page-break-inside: avoid;
-    margin-bottom: 4px !important;
-  }
-  
-  .education-item {
-    margin-bottom: 12px !important;
-    padding-bottom: 12px !important;
-    page-break-inside: avoid;
-    orphans: 2;
-    widows: 2;
-  }
-  
-  .project-item,
-  .certification-item {
-    margin-bottom: 12px !important;
-    padding-bottom: 12px !important;
-    page-break-inside: avoid;
-    orphans: 2;
-    widows: 2;
-  }
-  
-  .skills-grid {
-    gap: 15px !important;
-  }
-  
-  .competencies-grid {
-    gap: 12px !important;
-  }
-  
-  .languages-list {
-    gap: 10px !important;
-  }
-  
-  .project-tech,
-  .job-tech,
-  .job-competencies {
-    gap: 4px !important;
-    margin-top: 6px !important;
-    page-break-before: avoid;
-  }
-  
-  .skill-tags {
-    gap: 5px !important;
-  }
-  
-  .interests-list {
-    gap: 5px !important;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    page-break-after: avoid;
-    orphans: 3;
-    widows: 3;
-  }
-  
-  .contact-info {
-    page-break-inside: avoid;
-  }
-  
-  .key-courses {
-    page-break-inside: avoid;
   }
 }
 
