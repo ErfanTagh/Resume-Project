@@ -1,0 +1,42 @@
+Betreff: Bewerbung als Product Development Engineer - Working Student (Werkstudent)
+
+Sehr geehrte Damen und Herren,
+
+mit großer Begeisterung bewerbe ich mich auf die Position als Product Development Engineer - Working Student bei Sleak AI. Die Möglichkeit, an einem conversational AI-Produkt zu arbeiten, das Sales-Teams dabei hilft, ihre Fähigkeiten schneller zu verbessern, entspricht genau meinen Interessen und beruflichen Zielen.
+
+**Warum Sleak AI:**
+
+Sleak AI's Mission, realistische Kundengespräche zu simulieren und Sales-Reps dabei zu helfen, effektiver zu üben und messbare Ergebnisse zu liefern, begeistert mich sehr. Die Idee, KI-Technologie einzusetzen, um echte Probleme zu lösen und Menschen dabei zu helfen, ihre Fähigkeiten zu verbessern, ist genau die Art von Impact-orientierter Arbeit, die mich motiviert. Als vollständig bootstrappedes Startup, das schnell wächst, bietet Sleak mir die perfekte Umgebung, um Verantwortung zu übernehmen, direkt Impact zu haben und innovative Produkte zu entwickeln, die von hunderten Menschen genutzt werden.
+
+**Mein Interesse am Produkt:**
+
+Was mich besonders an Sleak AI fasziniert, ist die intelligente Kombination aus conversational AI und praxisnahem Training. Die Möglichkeit, eine Sprach-KI zu entwickeln, die auf den individuellen Unternehmenskontext zugeschnitten ist und realistische Verkaufsinteraktionen simuliert, ist technisch herausfordernd und gleichzeitig hochrelevant. Besonders spannend finde ich, wie die Plattform Vertrieblern ermöglicht, jederzeit und von überall ihre Verkaufsfähigkeiten zu trainieren und detailliertes, individuelles Feedback zu erhalten. Die Tatsache, dass Sleak AI nicht nur theoretisches Wissen vermittelt, sondern durch aktives, personalisiertes Training nachweislich die Vertriebsleistung steigert und das Onboarding neuer Mitarbeiter beschleunigt, zeigt den echten Impact des Produkts. Als Entwickler begeistert mich die Herausforderung, solche komplexen conversational interfaces zu bauen, die sowohl technisch anspruchsvoll als auch nutzerfreundlich sind.
+
+**Mein Profil:**
+
+Ich studiere aktuell im Master of Computer Science an der RPTU Kaiserslautern mit Fokus auf Full-Stack-Entwicklung und Conversational AI. Ich bringe mehrjährige Erfahrung in der Entwicklung nutzerzentrierter Produkte mit React/TypeScript und Python/Flask mit. Praktische Erfahrung im Aufbau KI-gestützter Anwendungen mit Large Language Models (LLMs), LangChain und Hugging Face – genau die Technologien, die für conversational interfaces benötigt werden.
+
+In meiner zweijährigen Tätigkeit als React-Native-Werkstudent bei Neocosmo habe ich gelernt, eigenverantwortlich zu arbeiten, innovative Lösungen zu entwickeln und konstruktives Feedback zu geben. Ich habe direkte Erfahrung damit, Features zu entwickeln, die von echten Nutzern verwendet werden, und Performance-Optimierungen durchzuführen, um die User Experience zu verbessern.
+
+**Warum ich der richtige Kandidat bin:**
+
+Meine technischen Skills passen perfekt zu euren Anforderungen: Ich bringe fundierte Erfahrung in TypeScript, React (die Basis für Next.js), REST API-Entwicklung und Full-Stack-Entwicklung mit. Meine Erfahrung mit LangChain und LLMs ermöglicht es mir, schnell produktiv bei der Entwicklung conversational AI-Features zu werden. Zusätzlich habe ich bereits mit AI Coding Tools wie Cursor gearbeitet und bin vertraut mit modernen Entwicklungsmethoden.
+
+Was mich auszeichnet, ist meine Einstellung: Ich bin proaktiv, lernbereit und bringe die Motivation mit, nicht nur Code zu schreiben, sondern wirklich zu verstehen, was Nutzer brauchen und wie man intuitive, benutzerfreundliche Produkte entwickelt. Ich bin neugierig, empathisch und halte Nutzer immer im Fokus meiner Arbeit. Meine Erfahrung in kleinen Teams hat mir gezeigt, wie wichtig direkte Kommunikation, schnelle Umsetzung und eigenverantwortliches Arbeiten sind.
+
+**Warum ich zu Sleak passe:**
+
+Die Möglichkeit, direkt mit dem Gründungsteam zusammenzuarbeiten, an der Produkt-Roadmap mitzuarbeiten und echten Impact zu haben, ist genau das, wonach ich suche. Als Student schätze ich die Flexibilität eines Working Student-Verhältnisses, und die Aussicht, bei guter Zusammenarbeit langfristig Teil des Teams zu werden, motiviert mich zusätzlich. Ich bin bereit, Verantwortung zu übernehmen, innovative Ideen beizutragen und gemeinsam mit euch ein Produkt zu entwickeln, das Sales-Teams wirklich hilft.
+
+Ich würde mich sehr freuen, Teil von Sleak AI zu werden und gemeinsam conversational training tools zu entwickeln, die echten Impact haben.
+
+Mit freundlichen Grüßen,
+Erfan Taghvaei
+
+---
+
+Anhänge:
+- Lebenslauf
+- Zeugnisse
+- Immatrikulationsbescheinigung
+
